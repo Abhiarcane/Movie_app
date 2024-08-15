@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 25px;
+}
+.title{
+  margin-bottom: 25px;
+}
+.released{
+  margin-bottom: 5px;
+}
+
+.main-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+}
+
+.modal-btn{
+  outline: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.modal-btn:hover{
+  background-color: rgba(31, 31, 31, 0.888);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.modal-img{
+  border-radius: 20px;
+}
+
+.genre,.plot{
+  color: rgba(44, 44, 44, 0.881);
+}
+
+
+
+p{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 0;
+}
+.right-box{
+  padding: 0;
+  margin: 0;
+}

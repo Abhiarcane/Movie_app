@@ -1,0 +1,11 @@
+.movie-img{
+  cursor: pointer;
+}
+
+.movie-img:hover{
+  transform: scale(1.1);
+  transition: 0.2s
+}
+h2{
+  margin-bottom: 50px;
+}
